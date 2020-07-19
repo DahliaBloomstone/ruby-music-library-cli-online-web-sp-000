@@ -27,7 +27,7 @@ template = ERB.new(template_string)
 
 Song.all.each do |song|
   html = template.result(binding)
-  File.write("#{path}/songs/#{song.name}.html", "Nothing for now")
+  File.write("#{path}/songs/#{song.name}.html", html)
   end
 end
 
