@@ -50,8 +50,7 @@ def call
   generate_index("songs/index.html")
   generate_song_show
   generate_artist_show
-
-end
+  end
 
 end
 
